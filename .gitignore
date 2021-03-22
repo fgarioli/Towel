@@ -4,3 +4,6 @@ javadoc
 *.zip
 bin
 
+/target
+
+.DS_Store
