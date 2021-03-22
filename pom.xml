@@ -17,6 +17,7 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.13.2</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
     <build>
@@ -31,7 +32,7 @@
                 </configuration>
             </plugin>
       
-<!--            <plugin>   Create sources.jar 
+            <plugin>  <!-- Create sources.jar -->
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
                 <executions>
@@ -44,7 +45,7 @@
                 </executions>
             </plugin>
             
-            <plugin>
+<!--            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <executions>
